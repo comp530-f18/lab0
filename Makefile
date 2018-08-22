@@ -9,6 +9,9 @@ handin: clean
 	git tag -f -a handin -m "Lab 0 Handin"
 	git push -f origin --tags handin
 
+update:
+	git checkout master
+	git pull git@github.com:comp530-f18/lab0.git master
 
 clean:
 	rm -f ex2 
