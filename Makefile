@@ -11,7 +11,7 @@ handin: clean
 
 update:
 	git checkout master
-	git pull git@github.com:comp530-f18/lab0.git master
+	git pull https://github.com/comp530-f18/lab0.git master
 
 clean:
 	rm -f ex2 
