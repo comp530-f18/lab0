@@ -25,7 +25,7 @@ int main () {
 
       // Copy the char
 
-      // Handle the case where the inbuf is full
+      // Handle the case where the outbuf is full
     }
  
   } while (!eof);
